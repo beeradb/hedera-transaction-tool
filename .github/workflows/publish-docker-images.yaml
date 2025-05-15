@@ -11,7 +11,7 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: transaction-tools-linux-medium
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
